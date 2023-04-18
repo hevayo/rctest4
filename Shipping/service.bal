@@ -38,6 +38,6 @@ service / on new http:Listener(9090) {
     }
 
     resource function post orders(@http:Payload string payload) returns error?|string {
-
+        return "sample";
     }
 }
